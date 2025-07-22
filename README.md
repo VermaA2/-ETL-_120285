@@ -34,7 +34,7 @@ The transformed dataset is structured using a Star Schema optimized for analytic
 Fact Table: fact_vehicle_registration.csv
 Contains detailed transactional data such as VIN, Model Year, MSRP, Electric Range, and encoded Electric Vehicle Type.
 
-Dimension Tables:
+## Dimension Tables:
 
 dim_vehicle_make.csv — List of unique vehicle makes to provide descriptive context.
 
