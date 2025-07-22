@@ -2,6 +2,11 @@
 
 This project performs Extract, Transform, and Load (ETL) operations on a dataset containing electric and alternative fuel vehicle registrations in Washington State.
 
+## Detailed Documentation
+
+For a complete explanation of the ETL pipeline, data model, and design decisions, refer to the [Project Wiki](https://github.com/VermaA2/-ETL-_120285/wiki/ETL-Project:-Electric-Vehicle-Population-Data-(Washington-State)).
+
+
 ## Dataset
 **Source**: [WA Open Data Portal](https://data.wa.gov/)  
 **File Name**: `Electric_Vehicle_Population_Data.csv`
