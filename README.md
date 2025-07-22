@@ -41,15 +41,12 @@ dim_vehicle_make.csv — List of unique vehicle makes to provide descriptive con
 dim_vehicle_model.csv — List of unique vehicle models for detailed classification.
 
 dim_vehicle_location.csv — Location data including city, state, and postal code to support geographic analysis.
-      +----------------------+     +-----------------------+     +----------------------+
-      |   dim_vehicle_make    |     |  dim_vehicle_location  |     |  dim_vehicle_model    |
-      +----------------------+     +-----------------------+     +----------------------+
-               \                       |                            /
-                \                      |                           /
-                 \                     |                          /
-                  +--------------------------------------------+
-                  |           fact_vehicle_registration         |
-                  +--------------------------------------------+
+
+## Star Schema Diagram
+<p align="center">
+  <img src="https://github.com/VermaA2/-ETL-_120285/blob/main/star_schema.png" alt="Star Schema Diagram" width="600">
+</p>
+
 ## Summary Statistics
 As part of the ETL exploration, summary statistics for key features are generated and saved in summary_statistics.csv. This file includes count, mean, standard deviation, min, max, and quartiles for:
 
